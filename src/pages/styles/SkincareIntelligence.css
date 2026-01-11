@@ -1,0 +1,331 @@
+/* ===== Skincare Intelligence Page ===== */
+
+.skincareH2 {
+  margin: 0 0 34px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  color: rgba(206, 124, 127, 0.95);
+}
+
+/* ---------- HERO (pink band) ---------- */
+
+.skincareHero {
+  padding: 72px 0 72px;
+  background: rgba(206, 124, 127, 0.92);
+}
+
+.skincareHero__inner {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 56px;
+  align-items: center;
+}
+
+.skincareHero__title {
+  margin: 0 0 18px;
+  font-size: 48px;
+  line-height: 1.05;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.skincareHero__subtitle {
+  margin: 0 0 26px;
+  max-width: 520px;
+  font-size: 13px;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.86);
+}
+
+.skincareHero__actions {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+/* Buttons style */
+.skincareHero__btnPrimary {
+  background: rgba(255, 255, 255, 0.92) !important;
+  color: rgba(206, 124, 127, 0.95) !important;
+  border: 1px solid rgba(255, 255, 255, 0.75) !important;
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.18);
+  padding: 12px 18px !important;
+  border-radius: 10px !important;
+}
+
+.skincareHero__btnGhost {
+  background: transparent !important;
+  color: rgba(255, 255, 255, 0.92) !important;
+  border: 1px solid rgba(255, 255, 255, 0.8) !important;
+  padding: 12px 18px !important;
+  border-radius: 10px !important;
+}
+
+.skincareHero__imageFrame {
+  background: rgba(255, 255, 255, 0.14);
+  border-radius: 16px;
+  padding: 12px;
+  box-shadow: 0 22px 40px rgba(0, 0, 0, 0.22);
+}
+
+.skincareHero__imagePlaceholder {
+  height: 280px;
+  border-radius: 12px;
+  background: rgba(145, 196, 183, 0.35);
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+/* ---------- SECTION BACKGROUNDS ---------- */
+
+.skincareSection {
+  padding: 64px 0;
+}
+
+.skincareSection--white {
+  background: #fff;
+}
+
+.skincareSection--cream {
+  background: var(--bg);
+}
+
+/* ---------- GRIDS ---------- */
+
+.skincareGrid {
+  display: grid;
+  gap: 28px;
+}
+
+.skincareGrid--3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* ---------- FEATURE CARDS ---------- */
+
+.skincareFeatureCard {
+  text-align: center;
+  padding: 28px 26px;
+  border: 0;
+  background: rgba(247, 242, 221, 0.55);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.22);
+  border-radius: 14px;
+}
+
+.skincareFeatureCard__icon {
+  width: 44px;
+  height: 44px;
+  margin: 0 auto 14px;
+  border-radius: 12px;
+  background: rgba(206, 124, 127, 0.22);
+}
+
+.skincareFeatureCard__title {
+  margin: 0 0 10px;
+  font-size: 15px;
+  font-weight: 900;
+  color: rgba(206, 124, 127, 0.95);
+}
+
+.skincareFeatureCard__text {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.55;
+  color: rgba(206, 124, 127, 0.75);
+}
+
+/* ---------- STEP CARDS ---------- */
+
+.skincareStepCard {
+  text-align: center;
+  padding: 28px 26px;
+  border: 0;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.22);
+}
+
+.skincareStepCard__badge {
+  width: 30px;
+  height: 30px;
+  margin: 0 auto 12px;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  font-weight: 800;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.92);
+  background: rgba(206, 124, 127, 0.92);
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.18);
+}
+
+.skincareStepCard__title {
+  margin: 0 0 10px;
+  font-size: 15px;
+  font-weight: 900;
+  color: rgba(206, 124, 127, 0.95);
+}
+
+.skincareStepCard__text {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.55;
+  color: rgba(206, 124, 127, 0.75);
+}
+
+/* ---------- SPLIT SECTION ---------- */
+
+.skincareSplit {
+  display: grid;
+  grid-template-columns: 0.95fr 1.05fr;
+  gap: 56px;
+  align-items: center;
+}
+
+.skincareSplit__imageFrame {
+  border-radius: 16px;
+  background: rgba(0, 0, 0, 0.06);
+  padding: 0;
+  overflow: hidden;
+  box-shadow: 0 18px 34px rgba(0, 0, 0, 0.22);
+}
+
+.skincareSplit__imagePlaceholder {
+  height: 340px;
+  background: rgba(145, 196, 183, 0.35);
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.skincareSplit__title {
+  margin: 0 0 14px;
+  font-size: 34px;
+  line-height: 1.15;
+  font-weight: 900;
+  color: rgba(206, 124, 127, 0.92);
+}
+
+.skincareSplit__block {
+  margin-top: 14px;
+}
+
+.skincareSplit__h4 {
+  margin: 0 0 6px;
+  font-size: 12px;
+  font-weight: 900;
+  color: rgba(206, 124, 127, 0.9);
+}
+
+.skincareSplit__p {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.55;
+  color: rgba(206, 124, 127, 0.75);
+  max-width: 520px;
+}
+
+/* ---------- HONDO BAND (pink) ---------- */
+
+.skincareHondo {
+  padding: 64px 0;
+  background: rgba(206, 124, 127, 0.92);
+  text-align: center;
+}
+
+.skincareHondo__inner {
+  max-width: 920px;
+}
+
+.skincareHondo__title {
+  margin: 0 0 16px;
+  font-size: 34px;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.skincareHondo__text {
+  margin: 0 auto 22px;
+  max-width: 860px;
+  font-size: 12px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.86);
+}
+
+.skincareHondo__btn {
+  background: rgba(255, 255, 255, 0.92) !important;
+  color: rgba(206, 124, 127, 0.95) !important;
+  border: 1px solid rgba(255, 255, 255, 0.75) !important;
+  padding: 12px 18px !important;
+  border-radius: 10px !important;
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.18);
+}
+
+/* ---------- CTA STRIP (teal) ---------- */
+
+.skincareCta {
+  background: var(--teal);
+  padding: 28px 0;
+}
+
+.skincareCta__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.skincareCta__title {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.skincareCta__btn {
+  background: rgba(255, 255, 255, 0.92) !important;
+  color: rgba(69, 153, 155, 1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.75) !important;
+  padding: 10px 18px !important;
+  border-radius: 10px !important;
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.18);
+}
+
+/* ---------- RESPONSIVE ---------- */
+
+@media (max-width: 980px) {
+  .skincareHero__inner {
+    grid-template-columns: 1fr;
+  }
+
+  .skincareGrid--3 {
+    grid-template-columns: 1fr;
+  }
+
+  .skincareSplit {
+    grid-template-columns: 1fr;
+  }
+
+  .skincareCta__inner {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 520px) {
+  .skincareHero__title {
+    font-size: 38px;
+  }
+
+  .skincareH2 {
+    font-size: 34px;
+  }
+
+  .skincareSplit__title {
+    font-size: 28px;
+  }
+}
