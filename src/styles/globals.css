@@ -108,8 +108,8 @@ img {
 
 .btn--secondary {
   background: transparent;
-  border-color: rgba(0, 0, 0, 0.14);
-  color: var(--text);
+  border-color: rgba(69, 153, 155, 0.55);
+  color: var(--teal);
 }
 
 .btn--cta {
@@ -122,7 +122,7 @@ img {
   border-radius: var(--radius);
   padding: var(--s-5);
   background: var(--surface);
-  box-shadow: var(--shadow, none);
+  box-shadow: var(--shadow-soft);
   border: 1px solid rgba(0, 0, 0, 0.06);
 }
 
