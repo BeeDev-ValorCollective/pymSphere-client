@@ -1,16 +1,21 @@
 import { NavLink } from "react-router-dom";
 
 const linkStyle = ({ isActive }) => ({
-  opacity: isActive ? 1 : 0.8,
-  fontWeight: isActive ? 700 : 500,
+  fontWeight: isActive ? 600 : 500,
+  opacity: isActive ? 1 : 0.75,
 });
 
 export default function Header() {
   return (
     <header className="header">
       <div className="container header__inner">
-        <div className="header__brand">PymSphere</div>
+        {/* Brand */}
+        <div className="header__brand">
+          <span className="header__logo" aria-hidden />
+          <span className="header__name">PymSphere</span>
+        </div>
 
+        {/* Nav */}
         <nav className="header__nav">
           <NavLink to="/" style={linkStyle}>
             Home
@@ -22,14 +27,15 @@ export default function Header() {
             Offerings
           </NavLink>
           <NavLink to="/skincare-intelligence" style={linkStyle}>
-            Skincare Intelligence
+            Skincare
           </NavLink>
           <NavLink to="/contact" style={linkStyle}>
             Contact
           </NavLink>
         </nav>
 
-        <NavLink to="/contact" className="btn btn--primary">
+        {/* CTA */}
+        <NavLink to="/contact" className="header__cta">
           Get Started
         </NavLink>
       </div>
