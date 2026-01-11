@@ -1,22 +1,48 @@
 :root {
-  /* Colors */
-  --bg: #0b0f1a;
-  --surface: rgba(255, 255, 255, 0.06);
-  --text: #eaf0ff;
-  --muted: rgba(234, 240, 255, 0.72);
-  --accent: #00e5ff;
-  --accent-2: #b400ff;
+  /* =================================
+     COLOR SYSTEM (Figma)
+     Calm • Human • Trust-Driven
+  ================================= */
 
-  /* Type */
-  --font-sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Inter,
-    Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  /* Backgrounds */
+  --bg: #f7f2dd; /* Warm Cream – page background */
+  --surface: #ffffff; /* Cards / panels */
+
+  /* Text */
+  --text: #2b2b2b; /* Primary text */
+  --muted: #6b6b6b; /* Secondary text */
+
+  /* Brand Colors */
+  --rose: #ce7c7f; /* Dusty Rose – hero / highlights */
+  --peach: #e6b79c; /* Soft Peach – secondary sections */
+  --mint: #91c4b7; /* Muted Mint – icons / accents */
+  --teal: #45999b; /* Deep Teal – primary actions */
+  --olive: #a8af4b; /* Olive Accent – subtle emphasis */
+
+  /* Buttons */
+  --accent: var(--teal); /* Primary button */
+  --accent-2: var(--rose); /* CTA / highlight button */
+
+  /* =================================
+     TYPOGRAPHY
+  ================================= */
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+
   --font-display: var(--font-sans);
 
-  /* Layout */
-  --container: 1120px;
-  --radius: 16px;
+  /* =================================
+     LAYOUT
+  ================================= */
 
-  /* Spacing scale */
+  --container: 1120px;
+  --radius: 18px;
+
+  /* =================================
+     SPACING SCALE
+  ================================= */
+
   --s-1: 4px;
   --s-2: 8px;
   --s-3: 12px;
@@ -25,7 +51,12 @@
   --s-6: 32px;
   --s-7: 48px;
   --s-8: 64px;
+  --s-9: 96px;
 
-  /* Shadows / glow */
-  --glow: 0 0 24px rgba(0, 229, 255, 0.25);
+  /* =================================
+     ELEVATION / SHADOWS
+  ================================= */
+
+  --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.08);
+  --shadow-card: 0 14px 40px rgba(0, 0, 0, 0.1);
 }
