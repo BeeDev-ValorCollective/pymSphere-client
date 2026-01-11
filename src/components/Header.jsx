@@ -1,21 +1,37 @@
+import { NavLink } from "react-router-dom";
+
+const linkStyle = ({ isActive }) => ({
+  opacity: isActive ? 1 : 0.8,
+  fontWeight: isActive ? 700 : 500,
+});
+
 export default function Header() {
   return (
-    <header style={{ padding: "16px 0" }}>
-      <div
-        className="container"
-        style={{
-          display: "flex",
-          gap: 16,
-          alignItems: "center",
-          justifyContent: "space-between",
-        }}
-      >
-        <div style={{ fontWeight: 700 }}>PymSphere</div>
-        <nav style={{ display: "flex", gap: 16 }}>
-          <a href="#top">Home</a>
-          <a href="#features">Features</a>
-          <a href="#contact">Contact</a>
+    <header className="header">
+      <div className="container header__inner">
+        <div className="header__brand">PymSphere</div>
+
+        <nav className="header__nav">
+          <NavLink to="/" style={linkStyle}>
+            Home
+          </NavLink>
+          <NavLink to="/about" style={linkStyle}>
+            About
+          </NavLink>
+          <NavLink to="/offerings" style={linkStyle}>
+            Offerings
+          </NavLink>
+          <NavLink to="/skincare-intelligence" style={linkStyle}>
+            Skincare Intelligence
+          </NavLink>
+          <NavLink to="/contact" style={linkStyle}>
+            Contact
+          </NavLink>
         </nav>
+
+        <NavLink to="/contact" className="btn btn--primary">
+          Get Started
+        </NavLink>
       </div>
     </header>
   );
