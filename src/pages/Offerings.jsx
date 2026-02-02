@@ -4,42 +4,42 @@ import "./styles/Offerings.css";
 const offerings = [
   {
     title: "Hondo OS",
-    body: "Enterprise-grade AI operating system built on defense-adjacent engineering principles. HONDO provides the foundational infrastructure for mission-critical applications, delivering unparalleled reliability, security, and performance. Designed for environments where failure is not an option, HONDO powers intelligent systems across defense, enterprise, and consumer platforms with military-grade precision.",
+    body: "Robust AI operating system engineered for high-reliability applications. Hondo provides  foundational infrastructure for intelligent systems, delivering strong security, performance, and  scalability. Designed for demanding environments where consistency and precision matter,  Hondo supports advanced AI across enterprise and consumer platforms with dependable,  intuitive technology. ",
     cta: "Learn More",
   },
   {
     title: "Applied Customer Intelligence",
-    body: "Transform customer data into actionable insights with our advanced analytics platform. AI leverages machine learning to predict behavior, personalize experiences, and optimize engagement across every touchpoint. Built for enterprise scale, our system processes millions of interactions to deliver real-time intelligence that drives business growth and customer satisfaction.",
+    body: "Turn customer data into useful insights with our robust analytics platform. Using machine  learning, the system helps identify patterns, support personalized experiences, and improve  engagement across touchpoints. Designed for scalability, it processes large volumes of  interactions to provide timely information that supports business decisions and enhances  customer interactions.",
     cta: "Learn More",
   },
   {
     title: "AI & Machine Learning",
-    body: "Cutting-edge artificial intelligence and machine learning solutions tailored to your specific challenges. Our team of AI researchers and engineers develop custom models for computer vision, natural language processing, predictive analytics, and autonomous systems. From proof-of-concept to production deployment, we deliver AI that solves real-world problems with measurable impact.",
+    body: "Advanced artificial intelligence and machine learning tools designed to address practical  challenges. Our team of experienced AI engineers and researchers builds custom models for  computer vision, natural language processing, pattern recognition, and adaptive systems. From  initial concepts to full deployment, we create AI solutions that support real-world applications  with reliable, user-focused results.",
     cta: "Learn More",
   },
   {
-    title: "Consumer Goods Intelligence",
-    body: "AI-powered solutions designed specifically for consumer goods companies. Optimize supply chains, predict demand patterns, personalize product recommendations, and enhance customer experiences with intelligent automation. Our platform integrates seamlessly with existing systems to deliver actionable insights that drive sales, reduce costs, and improve operational efficiency across the entire product lifecycle.",
+    title: "Applied Consumer Intelligence",
+    body: "AI-powered tools designed for consumer goods companies to support supply chain  management, identify demand patterns, provide personalized product suggestions, and  enhance customer interactions with smart automation. Our platform integrates with existing  systems to offer useful insights that can help inform sales strategies, support cost management,  and improve operational efficiency throughout the product lifecycle.",
     cta: "Learn More",
   },
   {
     title: "Data Protection Systems",
-    body: "Defense-grade security infrastructure that safeguards your most sensitive data. Our comprehensive data protection platform combines advanced encryption, threat detection, and compliance management to ensure complete security across all environments. Built on principles tested in the most demanding scenarios, our systems protect with military-grade reliability and performance.",
+    body: "Robust security infrastructure designed to help safeguard sensitive data. Our comprehensive  data protection platform combines advanced encryption, threat monitoring, and compliance  support to promote secure operations across various environments. Built with reliability and  performance in focus, our systems offer dependable protection for important information in  demanding settings.",
     cta: "Learn More",
   },
   {
     title: "Defense & Enterprise Systems",
-    body: "Mission-critical systems engineered for the most demanding operational environments. Our defense and enterprise solutions deliver precision automation, intelligent decision support, and performance where failures are not an option. Built for maximum reliability and built to scale across secure environments, our systems meet strict standards required in defense applications.",
+    body: "Reliable systems engineered for demanding operational environments. Our enterprise solutions  provide precision automation, intelligent decision support, and consistent performance in high stakes settings. Built for scalability and security, our systems support advanced applications  across enterprise platforms with strong reliability and efficiency. ",
     cta: "Learn More",
   },
   {
     title: "Life Sciences AI",
-    body: "Advanced artificial intelligence solutions accelerating breakthroughs in healthcare and life sciences. Our platform combines deep learning with domain expertise to analyze medical imaging, predict patient outcomes, optimize clinical trials, and accelerate drug discovery. Built with the highest standards for accuracy and compliance, our AI empowers researchers and clinicians to make better decisions faster.",
+    body: "Innovative artificial intelligence tools designed to support wellness and lifestyle applications.  Our platform uses machine learning and computer vision to provide insights into appearance  and patterns, offering personalized suggestions for daily routines. Built with strong emphasis on  privacy, accuracy, and user-focused design, our AI helps create approachable, adaptive  experiences that enhance everyday wellness. ",
     cta: "Learn More",
   },
   {
     title: "MILK Retail AI Platform",
-    body: "Revolutionary retail intelligence platform that transforms how businesses understand and serve their customers. MILK combines computer vision, behavioral analytics, and predictive modeling to optimize store layouts, personalize shopping experiences, and maximize conversion rates. From inventory management to customer insights, MILK delivers actionable insights that drive measurable results in physical and digital retail environments.",
+    body: "Intelligent retail platform designed to help businesses better understand customer interactions  and shopping patterns. MILK uses computer vision and analytics to support store layout ideas,  personalized experiences, and engagement strategies. From inventory tracking to customer  insights, MILK provides useful information to inform retail decisions in physical and digital  environments. ",
     cta: "Learn More",
   },
 ];
@@ -65,12 +65,8 @@ export default function Offerings() {
           <div className="offeringsFeature__content">
             <h2 className="offeringsFeature__title">Skincare Intelligence</h2>
             <p className="offeringsFeature__text">
-              Revolutionary AI-powered skincare analysis that combines computer
-              vision with dermatological expertise. Get personalized product
-              recommendations, track your skin’s progress with detailed
-              analytics, and receive custom routine optimization—all powered by
-              advanced machine learning that understands your unique skin
-              journey.
+              Innovative AI-powered skincare companion that uses advanced computer vision to provide  insights into your skin's appearance, texture, and tone. Enjoy personalized product suggestions, track your glow progress with visual insights, and discover tailored routine ideas—all supported  by smart machine learning that adapts to your preferences and daily lifestyle for effortless,  consistent results.
+
             </p>
 
             <Button variant="secondary" className="offeringsFeature__btn">

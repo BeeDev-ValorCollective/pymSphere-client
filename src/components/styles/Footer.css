@@ -82,6 +82,12 @@
   color: rgba(0, 0, 0, 0.45);
   font-size: 13px;
 }
+.tag {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 
 /* Responsive */
 @media (max-width: 980px) {

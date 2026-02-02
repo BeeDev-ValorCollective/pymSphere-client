@@ -11,9 +11,7 @@ export default function Contact() {
         <div className="container contactHero__inner">
           <h1 className="contactHero__title">Get In Touch</h1>
           <p className="contactHero__subtitle">
-            Ready to transform your operations with defense-grade AI technology?
-            Our team is here to discuss your unique challenges and explore how
-            PymSphere can deliver intelligent solutions tailored to your needs.
+            Ready to discover how innovative AI can enhance your daily experiences? Our team is here to  discuss your unique challenges and explore how PymSphere can deliver personalized, reliable  solutions tailored to your needs.
           </p>
         </div>
       </section>
