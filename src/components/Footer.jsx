@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import "./styles/Footer.css";
+import BEE from '../assets/Bee_Vet_No_BG.png'
 
 export default function Footer() {
   return (
@@ -57,7 +58,7 @@ export default function Footer() {
         </div>
         <div className="tag">
           <p>© {new Date().getFullYear()} PymSphere</p>
-          <p>Crafted by <a href="https://beedev-services.com">BeeDev Services</a></p>
+          <p className='crafted-by'>Crafted by <a href="https://beedev-services.com" className="beedev"><img src={BEE} alt="BeeDev Icon" />BeeDev Services</a></p>
         </div>
       </div>
     </footer>
