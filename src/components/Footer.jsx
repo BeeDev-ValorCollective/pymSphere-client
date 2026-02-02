@@ -9,9 +9,7 @@ export default function Footer() {
         <div className="footer__brandCol">
           <div className="footer__brand">PymSphere</div>
           <p className="footer__blurb">
-            AI-powered skincare intelligence platform designed to help you
-            achieve your best skin through personalized recommendations and
-            advanced technology.
+            An AI-powered skincare companion designed to provide personalized suggestions and insights to enhance your skin's appearance through advanced technology.
           </p>
 
           <div
@@ -54,7 +52,13 @@ export default function Footer() {
       </div>
 
       <div className="container footer__bottom">
-        © {new Date().getFullYear()} PymSphere
+        <div className="disclaimer">
+          <p>Disclaimer: Our Skincare operating system is a cosmetic wellness tool for routine suggestions and entertainment. It does not diagnose or treat any conditions—consult a dermatologist for medical advice.</p>
+        </div>
+        <div className="tag">
+          <p>© {new Date().getFullYear()} PymSphere</p>
+          <p>Crafted by <a href="https://beedev-services.com">BeeDev Services</a></p>
+        </div>
       </div>
     </footer>
   );

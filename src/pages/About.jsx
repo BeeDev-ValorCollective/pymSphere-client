@@ -3,19 +3,19 @@ import "./styles/About.css";
 const missionItems = [
   {
     title: "AI Innovation",
-    text: "Pushing the boundaries of artificial intelligence with cutting-edge research and practical applications that solve real-world challenges.",
+    text: "Exploring advanced artificial intelligence to create practical, user-friendly  applications that enhance everyday experiences and solve common challenges. ",
   },
   {
     title: "Enterprise Systems",
-    text: "Building robust, scalable infrastructure that powers mission-critical operations with uncompromising reliability and security.",
+    text: "Developing reliable, scalable technology infrastructure designed for secure and  make operations efficient in demanding environments. ",
   },
   {
     title: "Critical Environments",
-    text: "Delivering defense-grade solutions tested in the most demanding scenarios where precision and performance are paramount.",
+    text: "Providing high-performance solutions built with precision engineering for  scenarios where reliability and accuracy matter most. ",
   },
   {
     title: "Skincare Intelligence",
-    text: "Revolutionizing personal care with AI-powered analysis and personalized recommendations that make professional skincare accessible to everyone.",
+    text: "Transforming daily skincare with AI-powered insights and personalized  suggestions that help make effective, effortless routines accessible to everyone. ",
   },
 ];
 
@@ -30,15 +30,15 @@ const leaders = [
 const pillars = [
   [
     "Advanced AI",
-    "Leveraging state-of-the-art machine learning, computer vision, and natural language processing to create intelligent systems that truly understand and adapt.",
+    "Harnessing cutting-edge machine learning, computer vision, and natural language  processing to create intuitive systems that learn and provide personalized suggestions. ",
   ],
   [
     "Security First",
-    "Built on defense-grade security principles with end-to-end encryption, privacy-preserving AI, and infrastructure designed to protect your most sensitive information.",
+    "Prioritizing robust privacy and security with end-to-end encryption, on-device  processing, and infrastructure built to safeguard user data.",
   ],
   [
     "Human-Centered",
-    "Technology that puts people first, with intuitive interfaces and personalized experiences, and AI that enhances rather than replaces human judgment and creativity.",
+    "Designing technology that puts people first—with intuitive interfaces,  tailored experiences, and AI that supports and enhances daily routines and creativity. ",
   ],
 ];
 
@@ -101,21 +101,16 @@ export default function About() {
         <div className="container aboutStory__inner">
           <h2 className="aboutStory__title">Our Story &amp; Vision</h2>
           <p className="aboutStory__text">
-            PymSphere was born from a simple observation: the most advanced AI
-            technologies developed for defense and enterprise applications could
-            transform everyday consumer experiences. Our founding team, composed
-            of veterans and defense-adjacent engineers, recognized that the same
-            precision, reliability, and intelligence required in
-            mission-critical systems could revolutionize how people approach
-            personal care, productivity, and daily decision-making.
+            PymSphere was founded on a clear insight: advanced AI technology, honed through rigorous  engineering, can make everyday wellness more accessible and effective. Led by a U.S. Marine  Corps veteran and SDVOSB-certified team, we bring disciplined innovation to consumer AI— starting with skincare and expanding to intuitive daily tools. 
           </p>
           <p className="aboutStory__text">
-            Today, we are building a future where sophisticated AI isn't just
-            for governments and corporations — it’s accessible, intuitive, and
-            genuinely helpful for everyone. From our flagship skincare
-            intelligence platform to our personal AI assistant, every product
-            reflects our commitment to bringing military-grade technology to
-            consumer applications.
+            Our flagship product, Mayon, is the AI skincare companion that helps you discover personalized  routines for your best glow. Through on-device insights into your skin's appearance, texture,  and tone, Mayon offers tailored suggestions based on your lifestyle, preferences, and existing  products—making consistent, effortless skincare available to everyone. 
+          </p>
+          <p className="aboutStory__text">
+            We're building a future where powerful AI feels like a helpful friend in your daily life. Privacy first and user-focused, Mayon is just the beginning of how PymSphere delivers smart,  approachable technology for real people. 
+          </p>
+          <p className="aboutStory__text">
+            Join the journey. Download Mayon and start your personalized skincare experience today.
           </p>
         </div>
       </section>

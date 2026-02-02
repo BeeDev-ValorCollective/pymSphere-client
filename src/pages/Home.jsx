@@ -58,10 +58,7 @@ export default function Home() {
             <div className="offerCard__content">
               <h3 className="offerCard__title">Skincare Intelligence</h3>
               <p className="offerCard__text">
-                Our flagship AI-powered skincare platform combines advanced
-                computer vision with dermatological expertise to deliver
-                personalized skin analysis, product recommendations, and routine
-                optimization.
+                Our flagship AI-powered skincare platform uses advanced computer vision to provide personalized insights into your skin's appearance, along with tailored product recommendations and routine suggestions to enhance your daily glow.
               </p>
               <Button variant="primary">Explore Skincare AI</Button>
             </div>
@@ -74,9 +71,7 @@ export default function Home() {
             <div className="offerCard__content">
               <h3 className="offerCard__title">Personal AI Assistant</h3>
               <p className="offerCard__text">
-                Experience the future of personalized assistance with our
-                AI-powered virtual companion. From managing your daily schedule
-                to answering complex questions, it adapts to you over time.
+                Discover personalized AI assistance with our virtual companion. It can help with everyday tasks like schedule reminders and answering questions, learning your preferences over time to provide more tailored responses.
               </p>
               <Button variant="primary">Meet Your AI Assistant</Button>
             </div>
@@ -89,9 +84,7 @@ export default function Home() {
             <div className="offerCard__content">
               <h3 className="offerCard__title">Custom Routines</h3>
               <p className="offerCard__text">
-                Build and automate personalized routines to fit your lifestyle
-                perfectly. Whether it’s skincare, fitness, productivity, or
-                wellness, it evolves with you.
+                Create personalized skincare routines that adapt to your daily lifestyle. Our AI learns your preferences over time to help enhance your appearance and glow.
               </p>
               <Button variant="primary">Create Your Routine</Button>
             </div>

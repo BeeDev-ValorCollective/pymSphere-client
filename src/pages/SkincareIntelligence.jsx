@@ -16,9 +16,7 @@ export default function SkincareIntelligence() {
             </h1>
 
             <p className="skincareHero__subtitle">
-              Transform your skincare routine with personalized AI analysis,
-              smart recommendations, and progress tracking designed specifically
-              for your unique skin journey.
+              Enhance your daily skincare routine with personalized AI insights into your skin's appearance,  texture, and tone. Enjoy tailored product suggestions, visual glow tracking, and routine ideas  designed to support your unique preferences and lifestyle—all through smart, adaptive  technology that helps make consistent skincare effortless and enjoyable. 
             </p>
 
             <div className="skincareHero__actions">
@@ -47,16 +45,16 @@ export default function SkincareIntelligence() {
           <div className="skincareGrid skincareGrid--3">
             {[
               {
-                title: "AI Skin Analysis",
-                text: "Advanced computer vision analyzes your skin condition with precision, identifying concerns and tracking changes over time.",
+                title: "AI Skin Insights",
+                text: "Advanced computer vision offers gentle insights into your skin's appearance, texture, and tone,  helping you notice visual changes over time with friendly, on-device precision. ",
               },
               {
-                title: "Smart Recommendations",
-                text: "Get personalized product and routine suggestions powered by AI that learns from your skin’s unique needs.",
+                title: "Smart Suggestions",
+                text: "Enjoy personalized product ideas and routine suggestions powered by AI that learns your  preferences and lifestyle, making it easier to find what supports your daily glow.",
               },
               {
-                title: "Progress Tracking",
-                text: "Visualize your transformation with detailed analytics, photo comparisons, and milestone achievements.",
+                title: "Glow Progress",
+                text: "Celebrate your visual journey with photo comparisons, appearance insights, and milestone  highlights that make tracking your consistent skincare routine fun and motivating.",
               },
             ].map((item) => (
               <Card key={item.title} className="skincareFeatureCard">
@@ -78,18 +76,18 @@ export default function SkincareIntelligence() {
             {[
               {
                 step: "1",
-                title: "Capture Your Skin",
-                text: "Take a quick selfie using our guided camera system for accurate AI analysis of your skin condition.",
+                title: "Captures Your Glow",
+                text: "Take a quick selfie with our guided camera system for friendly AI insights into your skin's  appearance, texture, and tone. ",
               },
               {
                 step: "2",
-                title: "AI Analysis",
-                text: "Our advanced AI processes your image, identifying skin type, concerns, and areas for improvement.",
+                title: "AI Insights",
+                text: "Our advanced on-device AI gently reviews your image to offer observations on your skin type,  visual texture, and areas that could enhance your daily glow. ",
               },
               {
                 step: "3",
-                title: "Get Your Plan",
-                text: "Receive personalized product recommendations and a custom routine tailored to your unique needs.",
+                title: "Get Your Routine",
+                text: "Receive personalized product suggestions and routine ideas tailored to your preferences and  lifestyle—all designed to support consistent, effortless skincare results. ",
               },
             ].map((item) => (
               <Card key={item.step} className="skincareStepCard">
@@ -117,34 +115,30 @@ export default function SkincareIntelligence() {
             </h2>
 
             <div className="skincareSplit__block">
-              <h4 className="skincareSplit__h4">Detailed Skin Insights</h4>
+              <h4 className="skincareSplit__h4">Skincare Companion</h4>
               <p className="skincareSplit__p">
-                Understand your skin’s condition with comprehensive analysis
-                including texture, hydration, and problem areas.
+                Friendly AI insights into your skin's appearance, texture, and tone—offering gentle, personalized  suggestions to support your daily glow. 
               </p>
             </div>
 
             <div className="skincareSplit__block">
-              <h4 className="skincareSplit__h4">Track Your Progress</h4>
+              <h4 className="skincareSplit__h4">Track Your Glow</h4>
               <p className="skincareSplit__p">
-                See your skin improve over time with before-and-after
-                comparisons and detailed progress metrics.
+                Follow your visual progress over time with photo comparisons and appearance insights that  make celebrating consistent routines fun and motivating. 
               </p>
             </div>
 
             <div className="skincareSplit__block">
               <h4 className="skincareSplit__h4">Smart Reminders</h4>
               <p className="skincareSplit__p">
-                Never miss a step with intelligent notifications that adapt to
-                your schedule and routine.
+                Stay on track with gentle notifications that adapt to your schedule and preferences, helping  make daily skincare habits effortless. 
               </p>
             </div>
 
             <div className="skincareSplit__block">
               <h4 className="skincareSplit__h4">Product Matching</h4>
               <p className="skincareSplit__p">
-                Discover products perfectly suited to your skin type with
-                AI-powered recommendations from trusted brands.
+                Explore product ideas tailored to your preferences with AI-powered recommendations from  trusted brands, including transparent matches for your existing favorites.
               </p>
             </div>
           </div>
