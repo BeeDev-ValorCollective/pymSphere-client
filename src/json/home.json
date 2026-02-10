@@ -24,6 +24,35 @@
         ]
     },
     {
+        "trust": [
+            {
+                "id": 1,
+                "label": "Years of Experience",
+                "img": "https://images.beedev-hosting.com/ps/yearsExperience.png"
+            },
+            {
+                "id": 2,
+                "label": "Defense-Adjacent Engineering",
+                "img": "https://images.beedev-hosting.com/ps/defenceAdjacent.png"
+            },
+            {
+                "id": 3,
+                "label": "Enterprise Systems",
+                "img": "https://images.beedev-hosting.com/ps/enterpriseSystemt.png"
+            },
+            {
+                "id": 4,
+                "label": "Mission-Tested AI",
+                "img": "https://images.beedev-hosting.com/ps/missionTested.jpg"
+            },
+            {
+                "id": 5,
+                "label": "Veteran Owned & Operated",
+                "img": "https://images.beedev-hosting.com/ps/sdvo.png"
+            }
+        ]
+    },
+    {
         "offerings": [
             {
                 "id": 1,
@@ -81,11 +110,18 @@
                 "home": [
                     {
                         "id": 1,
-                        "img": ""
+                        "name": "Skincare Intelligence",
+                        "img": "https://images.beedev-hosting.com/ps/skincareIntelligence.jpg"
                     },
                     {
                         "id": 2,
-                        "img": ""
+                        "name": "Personal AI Assistant",
+                        "img": "https://images.beedev-hosting.com/ps/personalAssistant.jpeg"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Custom Routines",
+                        "img": "https://images.beedev-hosting.com/ps/customRoutines.jpg"
                     }
                 ],
                 "about": [

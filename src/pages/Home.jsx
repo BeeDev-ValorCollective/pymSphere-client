@@ -12,10 +12,8 @@ export default function Home() {
     const { loading, error } = useSiteData()
     const images = useSiteValue("images", {})
     const appDoes = useSiteSection("app")
+    const whyTrust = useSiteSection("trust")
     const homeImages = images?.[0]?.home ?? [] 
-
-    console.log("images:",images, "appdoes data:", appDoes, "homeImages:", homeImages)
-    console.log("images object:", images)
 
     if (loading) return <p>Loading…</p>
     if (error) return <p>Error loading data: {error}</p>
@@ -68,7 +66,9 @@ export default function Home() {
         <div className="stack">
           <Card className="offerCard">
             <div className="offerCard__media">
-              <div className="offerCard__imagePlaceholder">Image</div>
+              <div className="offerCard__imagePlaceholder">
+                <img src={homeImages[0].img} alt={homeImages[0].name} />
+              </div>
             </div>
             <div className="offerCard__content">
               <h3 className="offerCard__title">Skincare Intelligence</h3>
@@ -81,7 +81,9 @@ export default function Home() {
 
           <Card className="offerCard offerCard--reverse">
             <div className="offerCard__media">
-              <div className="offerCard__imagePlaceholder">Image</div>
+              <div className="offerCard__imagePlaceholder">
+                <img src={homeImages[1].img} alt={homeImages[1].name} />
+              </div>
             </div>
             <div className="offerCard__content">
               <h3 className="offerCard__title">Personal AI Assistant</h3>
@@ -94,7 +96,9 @@ export default function Home() {
 
           <Card className="offerCard">
             <div className="offerCard__media">
-              <div className="offerCard__imagePlaceholder">Image</div>
+              <div className="offerCard__imagePlaceholder">
+                <img src={homeImages[2].img} alt={homeImages[2].name} />
+              </div>
             </div>
             <div className="offerCard__content">
               <h3 className="offerCard__title">Custom Routines</h3>
@@ -123,16 +127,12 @@ export default function Home() {
       {/* WHY TRUST */}
       <Section title="Why Trust PymSphere">
         <div className="grid grid--5">
-          {[
-            "Years of Experience",
-            "Defense-Adjacent Engineering",
-            "Enterprise Systems",
-            "Mission-Tested AI",
-            "Veteran Owned & Operated",
-          ].map((label) => (
-            <Card key={label} className="iconCard">
-              <div className="iconCard__icon" aria-hidden="true" />
-              <div className="iconCard__label">{label}</div>
+          {whyTrust.map((i) => (
+            <Card key={i.id} className="iconCard">
+              <div className="iconCard__icon" aria-hidden="true">
+                <img src={i.img} alt={i.label} />
+              </div>
+              <div className="iconCard__label">{i.label}</div>
             </Card>
           ))}
         </div>
