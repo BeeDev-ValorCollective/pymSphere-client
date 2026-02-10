@@ -7,7 +7,7 @@
 
 .home .hero__inner {
   display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
+  grid-template-columns: 1.3fr 0.7fr;
   gap: var(--s-8);
   align-items: center;
 }
@@ -47,6 +47,13 @@
   color: rgba(0, 0, 0, 0.55);
   font-weight: 600;
 }
+.home .heroImg {
+  height: 240px;
+  border-radius: 18px;
+  background: #91c4b759;
+  display: grid;
+  place-items: center;
+}
 
 /* Grids */
 .home .grid {
@@ -74,11 +81,16 @@
 }
 
 .home .iconCard__icon {
-  width: 44px;
-  height: 44px;
+  /* width: 150px; */
+  height: 200px;
   margin: 0 auto var(--s-3);
   border-radius: 12px;
   background: rgba(69, 153, 155, 0.16);
+}
+.home .iconCard__icon img {
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .home .iconCard__label {

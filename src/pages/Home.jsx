@@ -1,9 +1,25 @@
-import Section from "../components/Section";
-import Card from "../components/Card";
-import Button from "../components/Button";
-import "./styles/Home.css";
+import { useSiteData, useSiteSection, useSiteValue } from '../customHooks/Context'
+
+import Section from "../components/Section"
+import Card from "../components/Card"
+import Button from "../components/Button"
+import "./styles/Home.css"
+
+import HomeHero from '../assets/HomeHero.jpg'
+
 
 export default function Home() {
+    const { loading, error } = useSiteData()
+    const images = useSiteValue("images", {})
+    const appDoes = useSiteSection("app")
+    const homeImages = images?.[0]?.home ?? [] 
+
+    console.log("images:",images, "appdoes data:", appDoes, "homeImages:", homeImages)
+    console.log("images object:", images)
+
+    if (loading) return <p>Loading…</p>
+    if (error) return <p>Error loading data: {error}</p>
+
   return (
     <div className="home">
       {/* HERO */}
@@ -25,7 +41,9 @@ export default function Home() {
 
           <div className="hero__media">
             <div className="hero__imageFrame" aria-label="Skincare hero image">
-              <div className="hero__imagePlaceholder">Hero Image</div>
+              <div className="hero__imagePlaceholder">
+                <img className="heroImg" src={HomeHero} alt="" />
+              </div>
             </div>
           </div>
         </div>
@@ -34,15 +52,12 @@ export default function Home() {
       {/* WHAT THE APP DOES */}
       <Section title="What The App Does">
         <div className="grid grid--4">
-          {[
-            "AI Skin Analysis",
-            "Smart Recommendations",
-            "Progress Tracking",
-            "Personalized Routines",
-          ].map((label) => (
-            <Card key={label} className="iconCard">
-              <div className="iconCard__icon" aria-hidden="true" />
-              <div className="iconCard__label">{label}</div>
+         {appDoes.map((i) => (
+            <Card key={i.id} className="iconCard">
+              <div className="iconCard__icon" aria-hidden="true">
+                <img src={i.img} alt={i.label} />
+              </div>
+              <div className="iconCard__label">{i.label}</div>
             </Card>
           ))}
         </div>
