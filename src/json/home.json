@@ -124,7 +124,7 @@
                         "img": "https://images.beedev-hosting.com/ps/customRoutines.jpg"
                     }
                 ],
-                "about": [
+                "offerings": [
                     {
                         "id": 1,
                         "img": ""
@@ -132,8 +132,111 @@
                     {
                         "id": 2,
                         "img": ""
+                    },
+                    {
+                        "id": 3,
+                        "img": ""
+                    },
+                    {
+                        "id": 4,
+                        "img": ""
+                    },
+                    {
+                        "id": 5,
+                        "img": ""
+                    },
+                    {
+                        "id": 6,
+                        "img": ""
+                    },
+                    {
+                        "id": 7,
+                        "img": ""
+                    },
+                    {
+                        "id": 8,
+                        "img": ""
+                    },
+                    {
+                        "id": 9,
+                        "img": ""
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "pillars": [
+            {
+                "id": 1,
+                "title": "Advanced AI",
+                "text": "Harnessing cutting-edge machine learning, computer vision, and natural language  processing to create intuitive systems that learn and provide personalized suggestions.",
+                "img": "https://images.beedev-hosting.com/ps/advancedAI.jpg"
+            },
+            {
+                "id": 2,
+                "title": "Security First",
+                "text": "Prioritizing robust privacy and security with end-to-end encryption, on-device  processing, and infrastructure built to safeguard user data.",
+                "img": "https://images.beedev-hosting.com/ps/securityFirst.jpg"
+            },
+            {
+                "id": 3,
+                "title": "Human-Centered",
+                "text": "Designing technology that puts people first—with intuitive interfaces,  tailored experiences, and AI that supports and enhances daily routines and creativity.",
+                "img": "https://images.beedev-hosting.com/ps/humanCentered.jpg"
+            }
+        ]
+    },
+    {
+        "leaders": [
+            {
+                "id": 1,
+                "title": "CEO",
+                "name": "Joshua Sexton",
+                "img": "https://images.beedev-hosting.com/ps/CEO.jpg",
+                "is_active": true
+            },
+            {
+                "id": 2,
+                "title": "CTO",
+                "name": "Eduardo Russo",
+                "img": "https://images.beedev-hosting.com/ps/CTO.jpg",
+                "is_active": true
+            },
+            {
+                "id": 3,
+                "title": "CPO",
+                "name": "Jessica Sexton",
+                "img": "https://images.beedev-hosting.com/ps/CPO.jpg",
+                "is_active": true
+            }
+        ]
+    },
+    {
+        "missionItems": [
+            {
+                "id": 1,
+                "title": "AI Innovation",
+                "text": "Exploring advanced artificial intelligence to create practical, user-friendly  applications that enhance everyday experiences and solve common challenges. ",
+                "img": "https://images.beedev-hosting.com/ps/aiInovations.jpg"
+            },
+            {
+                "id": 2,
+                "title": "Enterprise Systems",
+                "text": "Developing reliable, scalable technology infrastructure designed for secure and  make operations efficient in demanding environments.",
+                "img": "https://images.beedev-hosting.com/ps/enterpriseSystems.jpg"
+            },
+            {
+                "id": 3,
+                "title": "Critical Environments",
+                "text": "Providing high-performance solutions built with precision engineering for  scenarios where reliability and accuracy matter most.",
+                "img": "https://images.beedev-hosting.com/ps/criticalEnvironments.jpg"
+            },
+            {
+                "id": 3,
+                "title": "Skincare Intelligence",
+                "text": "Transforming daily skincare with AI-powered insights and personalized  suggestions that help make effective, effortless routines accessible to everyone.",
+                "img": "https://images.beedev-hosting.com/ps/aboutSkincareIntelligence.jpg"
             }
         ]
     }

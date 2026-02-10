@@ -68,11 +68,16 @@
 }
 
 .missionCard__icon {
-  width: 54px;
-  height: 54px;
+  width: 100px;
+  height: 100px;
   margin: 0 auto 14px;
   border-radius: 16px;
   background: rgba(145, 196, 183, 0.35);
+}
+.missionCard__icon img {
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .missionCard__title {
@@ -98,11 +103,16 @@
 }
 
 .leaderCard__avatar {
-  width: 92px;
-  height: 92px;
+  /* width: 92px; */
+  height: 175px;
   border-radius: 18px;
   margin: 0 auto 12px;
   background: rgba(145, 196, 183, 0.35);
+}
+.leaderCard__avatar img {
+  height: 175px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .leaderCard__name {
@@ -157,11 +167,16 @@
 }
 
 .pillarCard__icon {
-  width: 54px;
-  height: 54px;
+  width: 125px;
+  height: 125px;
   margin: 0 auto 14px;
   border-radius: 16px;
   background: rgba(145, 196, 183, 0.35);
+}
+.pillarCard__icon img {
+  height: 125px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .pillarCard__title {
