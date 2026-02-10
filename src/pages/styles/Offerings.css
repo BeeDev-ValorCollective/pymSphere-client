@@ -83,11 +83,14 @@
 
 /* Placeholder Image */
 .offeringsImage__placeholder {
-  height: 170px;
+  height: 200px;
   display: grid;
   place-items: center;
   color: rgba(0, 0, 0, 0.45);
   font-weight: 600;
+}
+.offeringsImage__placeholder img {
+  height: 200px;
 }
 
 .offeringsImage--hero .offeringsImage__placeholder {
