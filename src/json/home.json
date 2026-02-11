@@ -135,39 +135,20 @@
                 "offerings": [
                     {
                         "id": 1,
+                        "name": "Skincare Intelligence",
                         "img": "https://images.beedev-hosting.com/ps/offeringsSkincareIntelligence.jpg"
+                    }
+                ],
+                "skincare": [
+                    {
+                        "id": 1,
+                        "name": "Skincare Intelligence",
+                        "img": "https://images.beedev-hosting.com/ps/skincareImg.jpg"
                     },
                     {
                         "id": 2,
-                        "img": ""
-                    },
-                    {
-                        "id": 3,
-                        "img": ""
-                    },
-                    {
-                        "id": 4,
-                        "img": ""
-                    },
-                    {
-                        "id": 5,
-                        "img": ""
-                    },
-                    {
-                        "id": 6,
-                        "img": ""
-                    },
-                    {
-                        "id": 7,
-                        "img": ""
-                    },
-                    {
-                        "id": 8,
-                        "img": ""
-                    },
-                    {
-                        "id": 9,
-                        "img": ""
+                        "name": "Skincare Assistant",
+                        "img": "https://images.beedev-hosting.com/ps/skincareAssistant.jpg"
                     }
                 ]
             }
@@ -246,6 +227,47 @@
                 "text": "Transforming daily skincare with AI-powered insights and personalized  suggestions that help make effective, effortless routines accessible to everyone.",
                 "img": "https://images.beedev-hosting.com/ps/aboutSkincareIntelligence.jpg"
             }
+        ]
+    },
+    {
+        "skincareApp": [
+            {
+                "title": "AI Skin Insights",
+                "text": "Advanced computer vision offers gentle insights into your skin's appearance, texture, and tone,  helping you notice visual changes over time with friendly, on-device precision.",
+                "img": "https://images.beedev-hosting.com/ps/skinInsights.jpg"
+              },
+              {
+                "title": "Smart Suggestions",
+                "text": "Enjoy personalized product ideas and routine suggestions powered by AI that learns your  preferences and lifestyle, making it easier to find what supports your daily glow.",
+                "img": "https://images.beedev-hosting.com/ps/smartSuggestions.jpg"
+              },
+              {
+                "title": "Glow Progress",
+                "text": "Celebrate your visual journey with photo comparisons, appearance insights, and milestone  highlights that make tracking your consistent skincare routine fun and motivating.",
+                "img": "https://images.beedev-hosting.com/ps/glowProgress.jpg"
+              }
+        ]
+    },
+    {
+        "howItWorks": [
+            {
+                "id": 1,
+                "step": "1",
+                "title": "Captures Your Glow",
+                "text": "Take a quick selfie with our guided camera system for friendly AI insights into your skin's  appearance, texture, and tone."
+              },
+              {
+                "id": 2,
+                "step": "2",
+                "title": "AI Insights",
+                "text": "Our advanced on-device AI gently reviews your image to offer observations on your skin type,  visual texture, and areas that could enhance your daily glow."
+              },
+              {
+                "id": 3,
+                "step": "3",
+                "title": "Get Your Routine",
+                "text": "Receive personalized product suggestions and routine ideas tailored to your preferences and  lifestyle—all designed to support consistent, effortless skincare results."
+              }
         ]
     }
 ]
