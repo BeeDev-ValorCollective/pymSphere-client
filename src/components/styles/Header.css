@@ -24,20 +24,11 @@
   color: var(--teal);
 }
 
-.header__logo {
-  width: 36px;
-  height: 36px;
+.header_logo {
+  height: 120px;
   border-radius: 12px;
-  background: linear-gradient(
-    135deg,
-    rgba(145, 196, 183, 0.9),
-    rgba(69, 153, 155, 0.9)
-  );
 }
 
-.header__name {
-  font-size: 20px;
-}
 
 /* Nav */
 .header__nav {

@@ -3,7 +3,19 @@ import Card from "../components/Card";
 import Button from "../components/Button";
 import "./styles/SkincareIntelligence.css";
 
+import { useSiteData, useSiteSection, useSiteValue } from '../customHooks/Context'
+
 export default function SkincareIntelligence() {
+  const { loading, error } = useSiteData()
+  const skincareApp = useSiteSection("skincareApp")
+  const howItWorks = useSiteSection("howItWorks")
+  const images = useSiteValue("images", {})
+  const skincareImages = images?.[0]?.skincare ?? []
+
+
+  if (loading) return <p>Loading…</p>
+  if (error) return <p>Error loading data: {error}</p>
+
   return (
     <div className="skincare">
       {/* HERO */}
@@ -31,7 +43,9 @@ export default function SkincareIntelligence() {
 
           <div className="skincareHero__media">
             <div className="skincareHero__imageFrame" aria-label="Hero image">
-              <div className="skincareHero__imagePlaceholder">Image</div>
+              <div className="skincareHero__imagePlaceholder">
+                <img src={skincareImages[0].img} alt="" />
+              </div>
             </div>
           </div>
         </div>
@@ -43,22 +57,11 @@ export default function SkincareIntelligence() {
           <h2 className="skincareH2">What The App Does</h2>
 
           <div className="skincareGrid skincareGrid--3">
-            {[
-              {
-                title: "AI Skin Insights",
-                text: "Advanced computer vision offers gentle insights into your skin's appearance, texture, and tone,  helping you notice visual changes over time with friendly, on-device precision. ",
-              },
-              {
-                title: "Smart Suggestions",
-                text: "Enjoy personalized product ideas and routine suggestions powered by AI that learns your  preferences and lifestyle, making it easier to find what supports your daily glow.",
-              },
-              {
-                title: "Glow Progress",
-                text: "Celebrate your visual journey with photo comparisons, appearance insights, and milestone  highlights that make tracking your consistent skincare routine fun and motivating.",
-              },
-            ].map((item) => (
+            {skincareApp.map((item) => (
               <Card key={item.title} className="skincareFeatureCard">
-                <div className="skincareFeatureCard__icon" aria-hidden="true" />
+                <div className="skincareFeatureCard__icon" aria-hidden="true">
+                  <img src={item.img} alt={item.title} />
+                </div>
                 <h3 className="skincareFeatureCard__title">{item.title}</h3>
                 <p className="skincareFeatureCard__text">{item.text}</p>
               </Card>
@@ -73,23 +76,7 @@ export default function SkincareIntelligence() {
           <h2 className="skincareH2">How It Works</h2>
 
           <div className="skincareGrid skincareGrid--3">
-            {[
-              {
-                step: "1",
-                title: "Captures Your Glow",
-                text: "Take a quick selfie with our guided camera system for friendly AI insights into your skin's  appearance, texture, and tone. ",
-              },
-              {
-                step: "2",
-                title: "AI Insights",
-                text: "Our advanced on-device AI gently reviews your image to offer observations on your skin type,  visual texture, and areas that could enhance your daily glow. ",
-              },
-              {
-                step: "3",
-                title: "Get Your Routine",
-                text: "Receive personalized product suggestions and routine ideas tailored to your preferences and  lifestyle—all designed to support consistent, effortless skincare results. ",
-              },
-            ].map((item) => (
+            {howItWorks.map((item) => (
               <Card key={item.step} className="skincareStepCard">
                 <div className="skincareStepCard__badge">{item.step}</div>
                 <h3 className="skincareStepCard__title">{item.title}</h3>
@@ -105,7 +92,9 @@ export default function SkincareIntelligence() {
         <div className="container skincareSplit">
           <div className="skincareSplit__media">
             <div className="skincareSplit__imageFrame" aria-label="App image">
-              <div className="skincareSplit__imagePlaceholder">Image</div>
+              <div className="skincareSplit__imagePlaceholder">
+                <img src={skincareImages[1].img} alt={skincareImages[1].name} />
+              </div>
             </div>
           </div>
 
