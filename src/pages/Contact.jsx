@@ -1,9 +1,18 @@
 import Section from "../components/Section";
 import Card from "../components/Card";
-import Button from "../components/Button";
 import "./styles/Contact.css";
 
+import ContactForm from "../components/ContactForm";
+
 export default function Contact() {
+
+  const PhoneLink = import.meta.env.VITE_LINK_PHONE
+  const PhoneDisplay = import.meta.env.VITE_DISPLAY_PHONE;
+  const EmailLink = import.meta.env.VITE_MAIN_EMAIL;
+  const Address01 = import.meta.env.VITE_ADDRESS_LINE1;
+  const Address02 = import.meta.env.VITE_ADDRESS_LINE2;
+  const Address03 = import.meta.env.VITE_ADDRESS_LINE3;
+
   return (
     <div className="contact">
       {/* HERO */}
@@ -32,10 +41,7 @@ export default function Contact() {
             </p>
             <a
               className="contactCard__link"
-              href="mailto:contact@pymsphere.com"
-            >
-              contact@pymsphere.com
-            </a>
+              href={`mailto:${ EmailLink }?subject=Request%20For%20Tax%20Services&body=Hello,%0A%0AI%20would%20like%20to%20inquire%20about...`}>{ EmailLink }</a>
           </Card>
 
           <Card className="contactCard">
@@ -44,9 +50,7 @@ export default function Contact() {
             </div>
             <h3 className="contactCard__title">Call Us</h3>
             <p className="contactCard__text">Speak directly with our team</p>
-            <a className="contactCard__link" href="tel:+15551234567">
-              +1 (555) 123-4567
-            </a>
+            <a className="contactCard__link" href={ PhoneLink }>{ PhoneDisplay }</a>
           </Card>
 
           <Card className="contactCard">
@@ -55,7 +59,7 @@ export default function Contact() {
             </div>
             <h3 className="contactCard__title">Visit Us</h3>
             <p className="contactCard__text">9:00am - 5:30pm</p>
-            <div className="contactCard__link">San Francisco, CA</div>
+            <div className="contactCard__link">{Address02}</div>
           </Card>
         </div>
       </Section>
@@ -73,63 +77,12 @@ export default function Contact() {
             </p>
           </div>
 
-          <Card className="contactFormCard">
-            <form className="contactForm" onSubmit={(e) => e.preventDefault()}>
-              <div className="contactForm__grid">
-                <label className="field">
-                  <span className="srOnly">Your Name</span>
-                  <input
-                    className="input"
-                    type="text"
-                    placeholder="Your Name"
-                  />
-                </label>
-
-                <label className="field">
-                  <span className="srOnly">Email Address</span>
-                  <input
-                    className="input"
-                    type="email"
-                    placeholder="Email Address"
-                  />
-                </label>
-
-                <label className="field">
-                  <span className="srOnly">Company Name</span>
-                  <input
-                    className="input"
-                    type="text"
-                    placeholder="Company Name"
-                  />
-                </label>
-
-                <label className="field">
-                  <span className="srOnly">Phone Number</span>
-                  <input
-                    className="input"
-                    type="tel"
-                    placeholder="Phone Number"
-                  />
-                </label>
-              </div>
-
-              <label className="field field--full">
-                <span className="srOnly">Subject</span>
-                <input className="input" type="text" placeholder="Subject" />
-              </label>
-
-              <div className="contactForm__actions">
-                <Button variant="primary" className="contactForm__btn">
-                  Send Message
-                </Button>
-              </div>
-            </form>
-          </Card>
+          <ContactForm />
         </div>
       </section>
 
       {/* LOCATION */}
-      <Section
+      {/* <Section
         title="Our Location"
         className="contactSection contactSection--white"
       >
@@ -138,7 +91,7 @@ export default function Contact() {
             <div className="locationCard__placeholder">Map Image</div>
           </div>
         </Card>
-      </Section>
+      </Section> */}
     </div>
   );
 }

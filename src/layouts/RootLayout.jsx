@@ -6,7 +6,7 @@ import { SiteDataProvider } from '../customHooks/Context'
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-const SITE_DATA_URL = import.meta.env.VITE_HOME_API
+const SITE_DATA_URL = import.meta.env.VITE_JSON_API
 
 
 export default function RootLayout() {
