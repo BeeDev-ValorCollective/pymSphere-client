@@ -1,4 +1,7 @@
 import { NavLink } from "react-router-dom";
+import Logo from '../assets/logo.png'
+
+import './styles/Header.css'
 
 const linkStyle = ({ isActive }) => ({
   fontWeight: isActive ? 600 : 500,
@@ -11,8 +14,7 @@ export default function Header() {
       <div className="container header__inner">
         {/* Brand */}
         <div className="header__brand">
-          <span className="header__logo" aria-hidden />
-          <span className="header__name">PymSphere</span>
+          <img className="header_logo" src={Logo} alt="PymSphere Logo" />
         </div>
 
         {/* Nav */}

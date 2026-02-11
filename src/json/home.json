@@ -1,0 +1,273 @@
+[
+    {
+        "app": [
+            {
+                "id": 1,
+                "label": "AI Skin Analysis",
+                "img": "https://images.beedev-hosting.com/ps/SkinAnalysis.jpg"
+            },
+            {
+                "id": 2,
+                "label": "Smart Recommendations",
+                "img": "https://images.beedev-hosting.com/ps/smartRecommend.jpg"
+            },
+            {
+                "id": 3,
+                "label": "Progress Tracking",
+                "img": "https://images.beedev-hosting.com/ps/progressTracking.jpg"
+            },
+            {
+                "id": 4,
+                "label": "Personalized Routines",
+                "img": "https://images.beedev-hosting.com/ps/personalizedRoutines.jpg"
+            }
+        ]
+    },
+    {
+        "trust": [
+            {
+                "id": 1,
+                "label": "Years of Experience",
+                "img": "https://images.beedev-hosting.com/ps/yearsExperience.png"
+            },
+            {
+                "id": 2,
+                "label": "Defense-Adjacent Engineering",
+                "img": "https://images.beedev-hosting.com/ps/defenceAdjacent.png"
+            },
+            {
+                "id": 3,
+                "label": "Enterprise Systems",
+                "img": "https://images.beedev-hosting.com/ps/enterpriseSystemt.png"
+            },
+            {
+                "id": 4,
+                "label": "Mission-Tested AI",
+                "img": "https://images.beedev-hosting.com/ps/missionTested.jpg"
+            },
+            {
+                "id": 5,
+                "label": "Veteran Owned & Operated",
+                "img": "https://images.beedev-hosting.com/ps/sdvo.png"
+            }
+        ]
+    },
+    {
+        "offerings": [
+            {
+                "id": 1,
+                "title": "Hondo OS",
+                "body": "Robust AI operating system engineered for high-reliability applications. Hondo provides  foundational infrastructure for intelligent systems, delivering strong security, performance, and  scalability. Designed for demanding environments where consistency and precision matter,  Hondo supports advanced AI across enterprise and consumer platforms with dependable,  intuitive technology. ",
+                "cta": "Learn More",
+                "img": "https://images.beedev-hosting.com/ps/hondoOS.jpg"
+            },
+            {
+                "id": 2,
+                "title": "Applied Customer Intelligence",
+                "body": "Turn customer data into useful insights with our robust analytics platform. Using machine  learning, the system helps identify patterns, support personalized experiences, and improve  engagement across touchpoints. Designed for scalability, it processes large volumes of  interactions to provide timely information that supports business decisions and enhances  customer interactions.",
+                "cta": "Learn More",
+                "img": "https://images.beedev-hosting.com/ps/appliedCustomerIntelligence.jpg"
+            },
+            {
+                "id": 3,
+                "title": "AI & Machine Learning",
+                "body": "Advanced artificial intelligence and machine learning tools designed to address practical  challenges. Our team of experienced AI engineers and researchers builds custom models for  computer vision, natural language processing, pattern recognition, and adaptive systems. From  initial concepts to full deployment, we create AI solutions that support real-world applications  with reliable, user-focused results.",
+                "cta": "Learn More",
+                "img": "https://images.beedev-hosting.com/ps/AIMachine.jpg"
+            },
+            {
+                "id": 4,
+                "title": "Applied Consumer Intelligence",
+                "body": "AI-powered tools designed for consumer goods companies to support supply chain  management, identify demand patterns, provide personalized product suggestions, and  enhance customer interactions with smart automation. Our platform integrates with existing  systems to offer useful insights that can help inform sales strategies, support cost management,  and improve operational efficiency throughout the product lifecycle.",
+                "cta": "Learn More",
+                "img": "https://images.beedev-hosting.com/ps/appliedConsumer.jpg"
+            },
+            {
+                "id": 5,
+                "title": "Data Protection Systems",
+                "body": "Robust security infrastructure designed to help safeguard sensitive data. Our comprehensive  data protection platform combines advanced encryption, threat monitoring, and compliance  support to promote secure operations across various environments. Built with reliability and  performance in focus, our systems offer dependable protection for important information in  demanding settings.",
+                "cta": "Learn More",
+                "img": "https://images.beedev-hosting.com/ps/dataProtection.jpg"
+            },
+            {
+                "id": 6,
+                "title": "Defense & Enterprise Systems",
+                "body": "Reliable systems engineered for demanding operational environments. Our enterprise solutions  provide precision automation, intelligent decision support, and consistent performance in high stakes settings. Built for scalability and security, our systems support advanced applications  across enterprise platforms with strong reliability and efficiency. ",
+                "cta": "Learn More",
+                "img": "https://images.beedev-hosting.com/ps/defenseEnterprise.jpg"
+            },
+            {
+                "id": 7,
+                "title": "Life Sciences AI",
+                "body": "Innovative artificial intelligence tools designed to support wellness and lifestyle applications.  Our platform uses machine learning and computer vision to provide insights into appearance  and patterns, offering personalized suggestions for daily routines. Built with strong emphasis on  privacy, accuracy, and user-focused design, our AI helps create approachable, adaptive  experiences that enhance everyday wellness. ",
+                "cta": "Learn More",
+                "img": "https://images.beedev-hosting.com/ps/lifeSciences.jpg"
+            },
+            {
+                "id": 8,
+                "title": "MILK Retail AI Platform",
+                "body": "Intelligent retail platform designed to help businesses better understand customer interactions  and shopping patterns. MILK uses computer vision and analytics to support store layout ideas,  personalized experiences, and engagement strategies. From inventory tracking to customer  insights, MILK provides useful information to inform retail decisions in physical and digital  environments. ",
+                "cta": "Learn More",
+                "img": "https://images.beedev-hosting.com/ps/milkRetail.jpg"
+            }
+        ]
+    },
+    {
+        "images": [
+            {
+                "home": [
+                    {
+                        "id": 1,
+                        "name": "Skincare Intelligence",
+                        "img": "https://images.beedev-hosting.com/ps/skincareIntelligence.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Personal AI Assistant",
+                        "img": "https://images.beedev-hosting.com/ps/personalAssistant.jpeg"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Custom Routines",
+                        "img": "https://images.beedev-hosting.com/ps/customRoutines.jpg"
+                    }
+                ],
+                "offerings": [
+                    {
+                        "id": 1,
+                        "name": "Skincare Intelligence",
+                        "img": "https://images.beedev-hosting.com/ps/offeringsSkincareIntelligence.jpg"
+                    }
+                ],
+                "skincare": [
+                    {
+                        "id": 1,
+                        "name": "Skincare Intelligence",
+                        "img": "https://images.beedev-hosting.com/ps/skincareImg.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Skincare Assistant",
+                        "img": "https://images.beedev-hosting.com/ps/skincareAssistant.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "pillars": [
+            {
+                "id": 1,
+                "title": "Advanced AI",
+                "text": "Harnessing cutting-edge machine learning, computer vision, and natural language  processing to create intuitive systems that learn and provide personalized suggestions.",
+                "img": "https://images.beedev-hosting.com/ps/advancedAI.jpg"
+            },
+            {
+                "id": 2,
+                "title": "Security First",
+                "text": "Prioritizing robust privacy and security with end-to-end encryption, on-device  processing, and infrastructure built to safeguard user data.",
+                "img": "https://images.beedev-hosting.com/ps/securityFirst.jpg"
+            },
+            {
+                "id": 3,
+                "title": "Human-Centered",
+                "text": "Designing technology that puts people first—with intuitive interfaces,  tailored experiences, and AI that supports and enhances daily routines and creativity.",
+                "img": "https://images.beedev-hosting.com/ps/humanCentered.jpg"
+            }
+        ]
+    },
+    {
+        "leaders": [
+            {
+                "id": 1,
+                "title": "CEO",
+                "name": "Joshua Sexton",
+                "img": "https://images.beedev-hosting.com/ps/CEO.jpg",
+                "is_active": true
+            },
+            {
+                "id": 2,
+                "title": "CTO",
+                "name": "Eduardo Russo",
+                "img": "https://images.beedev-hosting.com/ps/CTO.jpg",
+                "is_active": true
+            },
+            {
+                "id": 3,
+                "title": "CPO",
+                "name": "Jessica Sexton",
+                "img": "https://images.beedev-hosting.com/ps/CPO.jpg",
+                "is_active": true
+            }
+        ]
+    },
+    {
+        "missionItems": [
+            {
+                "id": 1,
+                "title": "AI Innovation",
+                "text": "Exploring advanced artificial intelligence to create practical, user-friendly  applications that enhance everyday experiences and solve common challenges. ",
+                "img": "https://images.beedev-hosting.com/ps/aiInovations.jpg"
+            },
+            {
+                "id": 2,
+                "title": "Enterprise Systems",
+                "text": "Developing reliable, scalable technology infrastructure designed for secure and  make operations efficient in demanding environments.",
+                "img": "https://images.beedev-hosting.com/ps/enterpriseSystems.jpg"
+            },
+            {
+                "id": 3,
+                "title": "Critical Environments",
+                "text": "Providing high-performance solutions built with precision engineering for  scenarios where reliability and accuracy matter most.",
+                "img": "https://images.beedev-hosting.com/ps/criticalEnvironments.jpg"
+            },
+            {
+                "id": 3,
+                "title": "Skincare Intelligence",
+                "text": "Transforming daily skincare with AI-powered insights and personalized  suggestions that help make effective, effortless routines accessible to everyone.",
+                "img": "https://images.beedev-hosting.com/ps/aboutSkincareIntelligence.jpg"
+            }
+        ]
+    },
+    {
+        "skincareApp": [
+            {
+                "title": "AI Skin Insights",
+                "text": "Advanced computer vision offers gentle insights into your skin's appearance, texture, and tone,  helping you notice visual changes over time with friendly, on-device precision.",
+                "img": "https://images.beedev-hosting.com/ps/skinInsights.jpg"
+              },
+              {
+                "title": "Smart Suggestions",
+                "text": "Enjoy personalized product ideas and routine suggestions powered by AI that learns your  preferences and lifestyle, making it easier to find what supports your daily glow.",
+                "img": "https://images.beedev-hosting.com/ps/smartSuggestions.jpg"
+              },
+              {
+                "title": "Glow Progress",
+                "text": "Celebrate your visual journey with photo comparisons, appearance insights, and milestone  highlights that make tracking your consistent skincare routine fun and motivating.",
+                "img": "https://images.beedev-hosting.com/ps/glowProgress.jpg"
+              }
+        ]
+    },
+    {
+        "howItWorks": [
+            {
+                "id": 1,
+                "step": "1",
+                "title": "Captures Your Glow",
+                "text": "Take a quick selfie with our guided camera system for friendly AI insights into your skin's  appearance, texture, and tone."
+              },
+              {
+                "id": 2,
+                "step": "2",
+                "title": "AI Insights",
+                "text": "Our advanced on-device AI gently reviews your image to offer observations on your skin type,  visual texture, and areas that could enhance your daily glow."
+              },
+              {
+                "id": 3,
+                "step": "3",
+                "title": "Get Your Routine",
+                "text": "Receive personalized product suggestions and routine ideas tailored to your preferences and  lifestyle—all designed to support consistent, effortless skincare results."
+              }
+        ]
+    }
+]

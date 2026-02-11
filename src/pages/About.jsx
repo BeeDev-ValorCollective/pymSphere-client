@@ -1,48 +1,19 @@
+import { useSiteData, useSiteSection } from '../customHooks/Context'
+
 import "./styles/About.css";
 
-const missionItems = [
-  {
-    title: "AI Innovation",
-    text: "Exploring advanced artificial intelligence to create practical, user-friendly  applications that enhance everyday experiences and solve common challenges. ",
-  },
-  {
-    title: "Enterprise Systems",
-    text: "Developing reliable, scalable technology infrastructure designed for secure and  make operations efficient in demanding environments. ",
-  },
-  {
-    title: "Critical Environments",
-    text: "Providing high-performance solutions built with precision engineering for  scenarios where reliability and accuracy matter most. ",
-  },
-  {
-    title: "Skincare Intelligence",
-    text: "Transforming daily skincare with AI-powered insights and personalized  suggestions that help make effective, effortless routines accessible to everyone. ",
-  },
-];
-
-const leaders = [
-  ["Marcus Chen", "Chief Executive Officer"],
-  ["Sarah Mitchell", "Chief Technology Officer"],
-  ["David Rodriguez", "Chief Product Officer"],
-  ["Emily Thompson", "Chief Science Officer"],
-  ["James Sullivan", "VP of Engineering"],
-];
-
-const pillars = [
-  [
-    "Advanced AI",
-    "Harnessing cutting-edge machine learning, computer vision, and natural language  processing to create intuitive systems that learn and provide personalized suggestions. ",
-  ],
-  [
-    "Security First",
-    "Prioritizing robust privacy and security with end-to-end encryption, on-device  processing, and infrastructure built to safeguard user data.",
-  ],
-  [
-    "Human-Centered",
-    "Designing technology that puts people first—with intuitive interfaces,  tailored experiences, and AI that supports and enhances daily routines and creativity. ",
-  ],
-];
 
 export default function About() {
+    const { loading, error } = useSiteData()
+    const missionItems = useSiteSection("missionItems")
+    const leaders = useSiteSection("leaders")
+    const pillars = useSiteSection("pillars")
+
+    const activeLeaders = leaders.filter((l) => l.is_active === true)
+
+    if (loading) return <p>Loading…</p>
+    if (error) return <p>Error loading data: {error}</p>
+
   return (
     <div className="about">
       {/* Hero */}
@@ -68,7 +39,9 @@ export default function About() {
           <div className="aboutGrid aboutGrid--4">
             {missionItems.map((item) => (
               <div key={item.title} className="card missionCard">
-                <div className="missionCard__icon" aria-hidden="true" />
+                <div className="missionCard__icon" aria-hidden="true">
+                  <img src={item.img} alt={item.title} />
+                </div>
                 <h3 className="missionCard__title">{item.title}</h3>
                 <p className="missionCard__text">{item.text}</p>
               </div>
@@ -84,12 +57,14 @@ export default function About() {
             <h2 className="section__title aboutH2">Leadership Team</h2>
           </header>
 
-          <div className="aboutGrid aboutGrid--5">
-            {leaders.map(([name, role]) => (
-              <div key={name} className="card leaderCard">
-                <div className="leaderCard__avatar" aria-hidden="true" />
-                <h3 className="leaderCard__name">{name}</h3>
-                <p className="leaderCard__role">{role}</p>
+          <div className="aboutGrid aboutGrid--3">
+            {activeLeaders.map((i) => (
+              <div key={i} className="card leaderCard">
+                <div className="leaderCard__avatar" aria-hidden="true">
+                  <img src={i.img} alt={i.name} />
+                </div>
+                <h3 className="leaderCard__name">{i.name}</h3>
+                <p className="leaderCard__role">{i.title}</p>
               </div>
             ))}
           </div>
@@ -123,11 +98,13 @@ export default function About() {
           </header>
 
           <div className="aboutGrid aboutGrid--3">
-            {pillars.map(([title, text]) => (
-              <div key={title} className="card pillarCard">
-                <div className="pillarCard__icon" aria-hidden="true" />
-                <h3 className="pillarCard__title">{title}</h3>
-                <p className="pillarCard__text">{text}</p>
+            {pillars.map((i) => (
+              <div key={i.id} className="card pillarCard">
+                <div className="pillarCard__icon" aria-hidden="true">
+                  <img src={i.img} alt={i.title} />
+                </div>
+                <h3 className="pillarCard__title">{i.title}</h3>
+                <p className="pillarCard__text">{i.text}</p>
               </div>
             ))}
           </div>
