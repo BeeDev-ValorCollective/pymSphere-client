@@ -1,4 +1,5 @@
 import { useSiteData, useSiteSection, useSiteValue } from '../customHooks/Context'
+import { NavLink } from "react-router-dom"
 
 import Button from "../components/Button";
 import "./styles/Offerings.css";
@@ -34,7 +35,7 @@ export default function Offerings() {
             </p>
 
             <Button variant="secondary" className="offeringsFeature__btn">
-              Explore Skincare AI
+              <NavLink to="/skincare-intelligence">Explore Skincare AI</NavLink>
             </Button>
           </div>
 
@@ -60,7 +61,7 @@ export default function Offerings() {
                   reverse ? "offeringsRow--reverse" : ""
                 }`}
               >
-                <div className="offeringsRow__media">
+                <div className="offeringsRow__media" id={item.slug}>
                   <div className="offeringsImage">
                     <div className="offeringsImage__placeholder">
                       <img src={item.img} alt={item.title} />
@@ -71,9 +72,9 @@ export default function Offerings() {
                 <div className="offeringsRow__content">
                   <h3 className="offeringsRow__title">{item.title}</h3>
                   <p className="offeringsRow__text">{item.body}</p>
-                  <Button variant="primary" className="offeringsRow__btn">
-                    {item.cta}
-                  </Button>
+                  {/* <Button variant="primary" className="offeringsRow__btn">
+                    <NavLink to={item.url}>{item.cta}</NavLink>
+                  </Button> */}
                 </div>
               </div>
             );
@@ -88,7 +89,7 @@ export default function Offerings() {
             Request a Capabilities Briefing
           </h3>
           <Button variant="secondary" className="offeringsCta__btn">
-            Contact Us Today
+            <NavLink to="/contact">Contact Us Today</NavLink>
           </Button>
         </div>
       </section>

@@ -9,6 +9,8 @@ import Offerings from "./pages/Offerings";
 import SkincareIntelligence from "./pages/SkincareIntelligence";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import Privacy from "./pages/Privacy"
+import Terms from "./pages/Terms"
 
 import "./styles/globals.css";
 
@@ -23,6 +25,8 @@ const router = createBrowserRouter([
       { path: "offerings", element: <Offerings /> },
       { path: "skincare-intelligence", element: <SkincareIntelligence /> },
       { path: "contact", element: <Contact /> },
+      { path: "privacy", element: <Privacy />},
+      { path: "terms", element: <Terms />},
     ],
   },
 ]);

@@ -29,25 +29,25 @@ export default function Footer() {
           <div className="footer__col">
             <div className="footer__heading">Offerings</div>
             <NavLink to="/skincare-intelligence">Skincare Intelligence</NavLink>
-            <NavLink to="/ai-assistant">AI Assistant</NavLink>
-            <NavLink to="/custom-routines">Custom Routines</NavLink>
-            <NavLink to="/hondo-platform">HONDO Platform</NavLink>
+            {/* <NavLink to="/ai-assistant">AI Assistant</NavLink> */}
+            {/* <NavLink to="/custom-routines">Custom Routines</NavLink> */}
+            {/* <NavLink to="/hondo-platform">HONDO Platform</NavLink> */}
           </div>
 
           <div className="footer__col">
             <div className="footer__heading">Company</div>
             <NavLink to="/about">About Us</NavLink>
             <NavLink to="/about">Our Mission</NavLink>
-            <NavLink to="/careers">Careers</NavLink>
+            {/* <NavLink to="/careers">Careers</NavLink> */}
             <NavLink to="/contact">Contact</NavLink>
           </div>
 
           <div className="footer__col">
             <div className="footer__heading">Support</div>
-            <NavLink to="/help-center">Help Center</NavLink>
-            <NavLink to="/privacy">Privacy Policy</NavLink>
-            <NavLink to="/terms">Terms of Service</NavLink>
-            <NavLink to="/security">Security</NavLink>
+            {/* <NavLink to="/help-center">Help Center</NavLink> */}
+            {/* <NavLink to="/privacy">Privacy Policy</NavLink> */}
+            {/* <NavLink to="/terms">Terms of Service</NavLink> */}
+            {/* <NavLink to="/security">Security</NavLink> */}
           </div>
         </div>
       </div>
