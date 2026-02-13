@@ -94,7 +94,7 @@
 }
 
 .offeringsImage--hero .offeringsImage__placeholder {
-  height: 150px;
+  height: 200px;
   background: rgba(255, 255, 255, 0.18);
 }
 
@@ -144,7 +144,7 @@
 }
 
 .offeringsRow .offeringsImage__placeholder {
-  height: 150px;
+  height: 200px;
 }
 
 /* Bottom CTA band */

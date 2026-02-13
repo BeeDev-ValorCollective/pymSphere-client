@@ -130,7 +130,7 @@ export default function Home() {
         <div className="grid grid--5">
           {whyTrust.map((i) => (
             <Card key={i.id} className="iconCard">
-              <div className="iconCard__icon" aria-hidden="true">
+              <div className="iconCard__icon2" aria-hidden="true">
                 <img src={i.img} alt={i.label} />
               </div>
               <div className="iconCard__label">{i.label}</div>
