@@ -39,14 +39,14 @@ export default function Footer() {
             <NavLink to="/about">About Us</NavLink>
             <NavLink to="/about">Our Mission</NavLink>
             {/* <NavLink to="/careers">Careers</NavLink> */}
-            <NavLink to="/contact">Contact</NavLink>
           </div>
 
           <div className="footer__col">
             <div className="footer__heading">Support</div>
+            <NavLink to="/contact">Contact</NavLink>
             {/* <NavLink to="/help-center">Help Center</NavLink> */}
-            {/* <NavLink to="/privacy">Privacy Policy</NavLink> */}
-            {/* <NavLink to="/terms">Terms of Service</NavLink> */}
+            <NavLink to="/privacy">Privacy Policy</NavLink>
+            <NavLink to="/terms">Terms of Service</NavLink>
             {/* <NavLink to="/security">Security</NavLink> */}
           </div>
         </div>
