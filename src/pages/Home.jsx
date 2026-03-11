@@ -1,4 +1,5 @@
 import { useSiteData, useSiteSection, useSiteValue } from '../customHooks/Context'
+import { NavLink } from "react-router-dom";
 
 import Section from "../components/Section"
 import Card from "../components/Card"
@@ -32,8 +33,8 @@ export default function Home() {
             </p>
 
             <div className="hero__actions">
-              <Button variant="primary">Start Your Journey</Button>
-              <Button variant="secondary">Learn More</Button>
+              <Button variant="primary" disabled>Start Your Journey</Button>
+              <Button variant="secondary"><NavLink to="/skincare-intelligence">Learn More</NavLink></Button>
             </div>
           </div>
 
@@ -75,7 +76,7 @@ export default function Home() {
               <p className="offerCard__text">
                 Our flagship AI-powered skincare platform uses advanced computer vision to provide personalized insights into your skin's appearance, along with tailored product recommendations and routine suggestions to enhance your daily glow.
               </p>
-              <Button variant="primary">Explore Skincare AI</Button>
+              {/* <Button variant="primary">Explore Skincare AI</Button> */}
             </div>
           </Card>
 
@@ -90,7 +91,7 @@ export default function Home() {
               <p className="offerCard__text">
                 Discover personalized AI assistance with our virtual companion. It can help with everyday tasks like schedule reminders and answering questions, learning your preferences over time to provide more tailored responses.
               </p>
-              <Button variant="primary">Meet Your AI Assistant</Button>
+              {/* <Button variant="primary">Meet Your AI Assistant</Button> */}
             </div>
           </Card>
 
@@ -105,7 +106,7 @@ export default function Home() {
               <p className="offerCard__text">
                 Create personalized skincare routines that adapt to your daily lifestyle. Our AI learns your preferences over time to help enhance your appearance and glow.
               </p>
-              <Button variant="primary">Create Your Routine</Button>
+              {/* <Button variant="primary">Create Your Routine</Button> */}
             </div>
           </Card>
         </div>
@@ -120,7 +121,7 @@ export default function Home() {
             infrastructure developed with defense-adjacent engineering
             principles for security, reliability, and performance.
           </p>
-          <Button variant="primary">Discover HONDO</Button>
+          <Button variant="primary"><NavLink to="/offerings">Discover HONDO</NavLink></Button>
         </div>
       </section>
 
@@ -129,7 +130,7 @@ export default function Home() {
         <div className="grid grid--5">
           {whyTrust.map((i) => (
             <Card key={i.id} className="iconCard">
-              <div className="iconCard__icon" aria-hidden="true">
+              <div className="iconCard__icon2" aria-hidden="true">
                 <img src={i.img} alt={i.label} />
               </div>
               <div className="iconCard__label">{i.label}</div>

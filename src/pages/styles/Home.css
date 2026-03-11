@@ -39,7 +39,7 @@
 }
 
 .home .hero__imagePlaceholder {
-  height: 260px;
+  height: 370px;
   border-radius: 18px;
   background: rgba(145, 196, 183, 0.35);
   display: grid;
@@ -48,7 +48,7 @@
   font-weight: 600;
 }
 .home .heroImg {
-  height: 240px;
+  height: 340px;
   border-radius: 18px;
   background: #91c4b759;
   display: grid;
@@ -62,7 +62,7 @@
 }
 
 .home .grid--4 {
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 2fr);
 }
 
 .home .grid--5 {
@@ -82,13 +82,25 @@
 
 .home .iconCard__icon {
   /* width: 150px; */
-  height: 200px;
+  height: 350px;
   margin: 0 auto var(--s-3);
   border-radius: 12px;
   background: rgba(69, 153, 155, 0.16);
 }
 .home .iconCard__icon img {
-  height: 200px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.home .iconCard__icon2 {
+  /* width: 150px; */
+  height: 150px;
+  margin: 0 auto var(--s-3);
+  border-radius: 12px;
+  background: rgba(69, 153, 155, 0.16);
+}
+.home .iconCard__icon2 img {
+  height: 150px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -117,7 +129,7 @@
 }
 
 .home .offerCard__imagePlaceholder {
-  height: 180px;
+  height: 280px;
   border-radius: 18px;
   background: rgba(206, 124, 127, 0.25);
   display: grid;
@@ -126,7 +138,7 @@
   color: rgba(0, 0, 0, 0.55);
 }
 .home .offerCard__imagePlaceholder img {
-  height: 180px;
+  height: 280px;
 }
 
 .home .offerCard__title {

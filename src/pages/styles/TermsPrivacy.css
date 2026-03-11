@@ -1,0 +1,32 @@
+.termPrivacy_mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+}
+
+.termPrivacy_headerSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+}
+
+.termPrivacy_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 85%;
+}
+
+.alt {
+    margin-left: 2em;
+
+}
+
+.alt a {
+    color: var(--text);
+}

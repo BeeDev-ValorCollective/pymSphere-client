@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Main Home Page -->
+    <url>
+        <loc>https://pymsphere.com</loc>
+        <!-- Replace the date below with a realistic last update date or current date. -->
+        <lastmod>2026-02-11</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <!-- About Page -->
+    <url>
+        <loc>https://pymsphere.com/about</loc>
+        <lastmod>2026-02-11</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <!-- Offerings Page -->
+    <url>
+        <loc>https://pymsphere.com/offerings</loc>
+        <lastmod>2026-02-11</lastmod>
+        <priority>0.80</priority>
+    </url>
+
+    <!-- Skincare Page -->
+    <url>
+        <loc>https://pymsphere.com/skincare-intelligence</loc>
+        <lastmod>2026-02-11</lastmod>
+        <priority>0.80</priority>
+    </url>
+
+    <!-- Contact Page -->
+    <url>
+        <loc>https://pymsphere.com/contact</loc>
+        <lastmod>2026-02-11</lastmod>
+        <priority>0.80</priority>
+    </url>
+</urlset>
