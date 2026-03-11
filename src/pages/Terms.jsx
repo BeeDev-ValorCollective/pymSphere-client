@@ -15,7 +15,7 @@ export default function Terms() {
     return(
         <div className='termPrivacy_mainContainer'>
             <div className="termPrivacy_headerSection">
-                <p>Effective date: 1st day of January, 2026</p>
+                <p>Effective date: 6th day of March, 2026</p>
             </div>
             <div className='termPrivacy_section'>
                 <p>These terms and conditions (the "Terms and Conditions") govern the use of {Website} (the "Site"). This Site is owned and operated by {Owner}. This Site is a service.</p>

@@ -25,7 +25,7 @@ export default function Privacy() {
         <div className='termPrivacy_mainContainer'>
             <div className='termPrivacy_headerSection'>
                 <p>Type of website: Service</p>
-                <p>Effective Date: 1st day of January 2026</p>
+                <p>Effective Date: 6th day of March 2026</p>
             </div>
             <div className='termPrivacy_section'>
                 <p>{Website} (the "Site") is owned and operated by {Owner}. {Owner} can be contacted at:</p>
